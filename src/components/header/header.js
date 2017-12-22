@@ -1,7 +1,8 @@
 import React from "react";
-import logo from "../images/logo.png";
+import {Link} from "react-router-dom";
+
+import Logo from "../logo/logo";
 import Navbar from "../navbar/navbar";
-import "./header.css";
 import "../css/bootstrap.min.css";
 import "../css/font-awesome.min.css";
 
@@ -12,17 +13,7 @@ const Header = () =>
         <div className="col-sm-12">
         <nav className="navbar navbar-default">
             <div className="container-fluid">
-                <div className="navbar-header">
-                    <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span className="sr-only">Toggle navigation</span>
-                    <span className="icon-bar"></span>
-                    <span className="icon-bar"></span>
-                    <span className="icon-bar"></span>
-                    </button>
-                    <a className="navbar-brand" href="#">
-                    <img src={logo} alt=""/>
-                    </a>
-                </div>
+                <Logo/>
                 <Navbar/>
                 
                 

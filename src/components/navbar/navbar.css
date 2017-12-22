@@ -1,3 +1,40 @@
+/* Global reset  ------------------------ */
+body {
+  background-color: #fff;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+span {
+  padding: 0;
+  margin: 0;
+}
+a {
+  transition: all 300ms;
+}
+a:hover,
+a:focus {
+  text-decroration: none;
+  outline: none;
+}
+/* header Logo ------------------------ */
+.header {
+  padding: 4px 0;
+}
+.header .navbar-default {
+  background: transparent;
+  border: 0;
+}
+/* header Navigation ------------------------ */
 .header .navbar-nav > li > a {
   color: #393939;
   font-size: 18px;

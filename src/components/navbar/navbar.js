@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import "./navbar.css";
 import "../css/bootstrap.min.css";
 import "../css/font-awesome.min.css";
+import "../css/js/bootstrap.min.js";
 
 const NavBar = () => 
 <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
