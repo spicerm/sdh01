@@ -1,0 +1,19 @@
+.header {
+  padding: 4px 0;
+  .navbar-default {
+    background: transparent;
+    border: 0;
+  }
+} 
+
+
+.navbar-nav > li > a {
+	color:#393939;
+	font-size:16px;
+	text-transform:capitalize;
+	padding:42px 38px 0 38px;
+	font-weight:500;
+}
+.navbar-nav > li:nth-child(3) a {
+	padding-right:0;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import logo from "../images/footer-logo.png";
-import "./footer.css";
+import "./footer.scss";
 import "../css/bootstrap.min.css";
 import "../css/font-awesome.min.css";
 
