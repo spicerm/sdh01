@@ -9,9 +9,9 @@ const Footer = () =>
 <footer className="footer">
     <div className="container">
         <div className="row">
-        <div className="col-sm-8">
+        <div className="col-sm-12 col-md-8">
             <div className="row">
-            <div className="footer-detail-box col-xs-4">
+            <div className="footer-detail-box col-sm-4">
                 <h3>Quick Links</h3>
                 <ul>
                 <li><Link to="/">Terms</Link></li>
@@ -21,7 +21,7 @@ const Footer = () =>
                 <li><Link to="/">Sitemap</Link></li>
                 </ul>
             </div>
-            <div className="footer-detail-box col-xs-4">
+            <div className="footer-detail-box col-sm-4">
                 <h3>Help</h3>
                 <ul>
                 <li><Link to="/">Help Center</Link></li>
@@ -31,7 +31,7 @@ const Footer = () =>
                 <li><Link to="/">Conditions</Link></li>
                 </ul>
             </div>
-            <div className="footer-detail-box col-xs-4">
+            <div className="footer-detail-box col-sm-4">
                 <h3>Quick Links</h3>
                 <ul>
                 <li><Link to="/">Terms</Link></li>
@@ -43,7 +43,7 @@ const Footer = () =>
             </div>
             </div>
         </div>
-        <div className="col-sm-4">
+        <div className="col-sm-12 col-md-4">
             <Link to="/" className="footer-logo">
             <img src={logo} alt=""/>
             </Link>
